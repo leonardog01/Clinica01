@@ -1,0 +1,490 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+@font-face {
+    font-family: principal;
+    src: url(/fontes/WixMadeforText-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: secundaria;
+    src: url(/fontes/Kavoon-Regular.ttf);
+}
+@font-face{
+    font-family: name;
+    src: url(/fontes/Yaldevi-VariableFont_wght.ttf);
+}
+
+
+header{
+    width: 100%;
+    height: 127px;
+    background-color: rgb(255, 255, 255);
+    font-family: principal;
+}
+
+
+.containerchefe {
+    display: flex;
+    position: absolute;
+    top: 5.5%;
+    left: 38%;
+    
+    
+}
+
+.containerchefe p{
+    
+    margin-top: 6%;
+}
+
+a {
+    position: relative;
+    text-decoration: none;
+    color: #000000;
+    font-family: Arial, sans-serif; 
+    font-size: 7px; 
+    padding: 25px;
+    overflow: hidden;
+    
+}
+.containerchefe a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0; 
+    height: 2.5px; 
+    background-color: #000000;
+    transition: width 0.2s ease-in-out; 
+    letter-spacing: .30em; 
+}
+.containerchefe a:hover::after {
+    width: 100%; 
+    
+    
+}
+.containerchefe a:hover{
+     
+    transform: scale(1.08);
+    transition-delay: 5ms;
+}
+
+.loginecadastro{
+    display: flex;
+    position: absolute;
+    left: 84%;
+    top: 7.9%;
+    
+
+}
+
+.loginecadastro a{
+    font-family:principal;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out;
+    transition: transform 0.1s ease-in-out 0.2s;
+
+}
+
+.loginecadastro p{
+    margin-top: 5%;
+}
+
+.loginecadastro a:hover{
+    background-color: #000000;
+    color: white;
+    border-radius: 10px;
+    transform: scale(1.10);
+    border: 2px white;
+    
+    
+
+}
+
+.logo img{
+
+    position: absolute;
+    left: 10%;
+    width: 8%;
+    height: 14%;
+    top: 4.5%;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out 0.2s;
+   
+
+
+}
+
+.logo img:hover{
+    transform: scale(1.08);
+    transition-delay: 350ms;
+    
+    
+}
+
+.texto1{
+    position: absolute;
+    top: 38%;
+    width: 30%;
+    left: 11%;
+    font-size: 50px;
+    font-family:  secundaria;
+    animation: typing 2.5s ease-in-out forwards; 
+    
+}
+
+@keyframes typing {
+    0% { 
+        left: -100%;
+    }
+
+
+ 
+
+    100%{ 
+   
+        left: 15%;
+    
+    }
+}
+
+.cadastro{
+
+    position: absolute;
+    top: 37%;
+    left: 37.4%;
+    font-family: Kavoon;
+    font-size: 255%;
+}
+
+.subtitulo{
+
+    position: absolute;
+    top: 45%;
+    left: 35.5%;
+    font-size: 180%;
+    font-family: Amatic SC;
+}
+
+input{
+    font-family: principal;
+    text-align: left; /* Alinha o texto à direita */
+    padding-left: 15px;
+    
+}
+
+#nome{
+
+    position: absolute;
+    top: 56%;
+    left: 37%;
+    height: 35px;
+    width: 26%;
+    background-color: #e2ff9355;
+    border-radius: 8px;
+    border: 1px solid black; /* Altera a borda do menu */
+
+}
+
+#cpf{
+
+    position: absolute;
+    top: 63%;
+    left: 37%;
+    height: 35px;
+    width: 26%;
+    background-color: #e2ff9355;
+    border-radius: 8px;
+    border: 1px solid black; /* Altera a borda do menu */
+
+}
+
+#celular{
+
+    position: absolute;
+    top: 70%;
+    left: 37%;
+    height: 35px;
+    width: 26%;
+    background-color: #e2ff9355;
+    border-radius: 8px;
+    border: 1px solid black; /* Altera a borda do menu */
+
+}
+
+#data{
+
+    position: absolute;
+    top: 77%;
+    left: 37%;
+    height: 35px;
+    width: 26%;
+    background-color: #e2ff9355;
+    border-radius: 8px;
+    border: 1px solid black; /* Altera a borda do menu */
+
+}
+
+#email{
+
+    position: absolute;
+    top: 84%;
+    left: 37%;
+    height: 35px;
+    width: 26%;
+    background-color: #e2ff9355;
+    border-radius: 8px;
+    border: 1px solid black; /* Altera a borda do menu */
+
+    
+}
+
+.entrar{
+
+    position: absolute;
+    color: white;
+    top: 99%;
+    height: 50px;
+    width: 27%;
+    background-color: #293E06;
+    border-radius: 9px;
+    left: 37%;
+    
+}
+
+.entrar:hover{
+    color: black;
+    background-color: white;
+    font-size:x-small;
+}
+.seta img{
+    position: absolute;
+    width: 5%;
+    height: 10%;
+    top: 120%;
+    left: 85%;
+}
+
+
+#gender{
+    position:absolute;
+    top: 91%;
+    left: 37%;
+    height: 36px;
+    width: 27%;
+    background-color: #e2ff9355;
+    border-radius: 8px;
+    font-family: principal;
+    padding-left: 15px;
+
+}
+
+.testemenu1{
+    font-family: principal;    
+    font-size: 15px; /* Altera o tamanho da fonte */
+    color: #333; /* Altera a cor do texto */
+    border: 1px solid #ccc;
+    border-radius: 1000px;
+    left: 90px;
+}
+
+.testemenu2{
+    font-family: principal;    
+    font-size: 15px; /* Altera o tamanho da fonte */
+    color: #333; /* Altera a cor do texto */
+    border: 1px solid #ccc; /* Altera a borda do menu */
+    border-radius: 100px; /* Adiciona bordas arredondadas */
+    left: 30px;
+}
+
+/*TUDO DO FOOTER ABAIXO!!*/
+
+footer{
+    background-color: #293E06;
+}
+
+.onda{
+    position: absolute;
+    width: 100%;
+    top: 100%;
+}
+
+.footeer{
+    position: absolute;
+    width: 100%;
+    top: 100%;
+}
+
+.retangulao{
+    position: absolute;
+    top: 165%;
+    height: 60%;
+    width: 100%;
+}
+
+.logo2{
+    position: absolute;
+    width: 11%;
+    top:160%;
+    left: 83.5%;
+}
+
+.alpha{
+    position: absolute;
+    width: 28%;
+    top:188.5%;
+    left: 63%;
+}
+
+.face{
+    position: absolute;
+    width: 3%;
+    top:206%;
+    left: 69%;
+}
+
+
+.tt{
+    position: absolute;
+    width: 3.5%;
+    top:206%;
+    left: 74.5%;
+}
+
+.insta{
+    position: absolute;
+    width: 3%;
+    top:206%;
+    left: 80.5%;
+}
+
+.home{
+    font-size: 125%;
+    color: white;
+    position: absolute;
+    top:200.5%;
+    left: 12.5%;
+    text-decoration: underline;
+}
+
+
+.logintexto{
+    font-size: 125%;
+    color: white;
+    position: absolute;
+    width: 3%;
+    top:206%;
+    left: 12.5%;
+    text-decoration: underline;
+}
+
+.agendee{
+    font-size: 125%;
+    color: white;
+    position: absolute;
+    width: 3%;
+    top:211.6%;
+    left: 12.5%;
+    text-decoration: underline;
+}
+
+.inicio{
+    position: absolute;
+    color: white;
+    font-family: Kavoon;
+    font-size: 270%;
+    top: 189.5%;
+    left: 12.4%;
+}
+
+.sobre{
+    position: absolute;
+    color: white;
+    font-family: Kavoon;
+    font-size: 270%;
+    top: 189.5%;
+    left: 27.1%;
+}
+.suporte{
+    position: absolute;
+    color: white;
+    font-family: Kavoon;
+    font-size: 270%;
+    top: 189.5%;
+    left: 45.8%;
+}
+
+.aunidade{
+    font-size: 125%;
+    color: white;
+    position: absolute;
+    top:200.5%;
+    left: 27.25%;
+    text-decoration: underline;
+}
+
+.especialistas{
+    font-size: 125%;
+    color: white;
+    position: absolute;
+    width: 3%;
+    top:206%;
+    left: 27.25%;
+    text-decoration: underline;
+}
+
+.contato{
+    font-size: 125%;
+    color: white;
+    position: absolute;
+    top:211.6%;
+    left: 27.25%;
+    text-decoration: underline;
+}
+
+.facetex{
+    font-size: 125%;
+    color: white;
+    position: absolute;
+    top:200.5%;
+    left: 45.95%;
+    text-decoration: underline;
+}
+
+.tttext{
+    font-size: 125%;
+    color: white;
+    position: absolute;
+    width: 3%;
+    top:206%;
+    left: 45.95%;
+    text-decoration: underline;
+}
+
+.instatext{
+    font-size: 125%;
+    color: white;
+    position: absolute;
+    width: 3%;
+    top:211.6%;
+    left: 45.95%;
+    text-decoration: underline;
+}
+
+
+.linha{
+    background-color: white;
+    top:202%;
+    left: 62.95%;
+    width: 28%;
+    height: 0.2%;
+}
+
+.testee{
+    width: 28%;
+    height: 0.2%;
+}
